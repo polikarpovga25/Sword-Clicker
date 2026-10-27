@@ -9,6 +9,7 @@ public class GameData : MonoBehaviour
     public int PlayerLevel { get; set; } = 1;
     public int SwordDamage { get; set; } = 1;
     public int UpgradeCost { get; set; } = 10;
+    public float CritMultiplier { get; set; } = 2.0f;
 
     private void Awake()
     {
